@@ -27,3 +27,4 @@ class Application
       search_term = req.params["q"]	      
       resp.write handle_search(search_term)	       handle_search(search_term)
    end
+ end
